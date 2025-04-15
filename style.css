@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  color: black;
+  font-size: 20px;
+  background-color: #f9f4eb;
+}
+header{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+h2{
+  color: black;
+  border-bottom: 2px solid;
+}
+/* "Abstract" Picture" */
+.home-hero{
+  background-image: url(images/flower-8820894_1280.png);
+  background-size: cover;
+  height: 400px;
+  background-position: top center;
+}
+/* "Welcome to my portfolio" Header" */
+.home-hero h1{
+  font-family: 'Dancing Script'cursive;
+  color: white;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  padding: 150px 0;
+  margin: 0;
+}
+/* Website Links except the nav */
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+a:active{
+  color: black;
+}
+/* Navigation: Home/Resume/Game */
+nav{
+  background-color: #e7d2b1;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li{
+   display: inline;
+   padding: 5px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+nav a:hover{
+  color: grey;
+}
+nav a:active{
+  color: black;
+}
+/*Main */
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+/* Footer */
+footer{
+  border-top: black 2px solid;
+  text-align: center;
+  background-color: #e7d2b1;
+}
+.float-right{
+  float:right;
+   max-width: 50%;
+   height: 280px;
+   margin-left: 20px;
+}
+/*CSS withuot a media query--applies to all sizes unless overridden */
+h1{
+    font-size: 4em;
+}
+
+/*CSS Adjustments for Tablets*/
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+/*CSS Adjustments for Smartphones*/
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
